@@ -1,8 +1,8 @@
 class Polygon{
     constructor(x,y,r){
    var options={
-    isStatic:true,
-    density: 0.004
+    isStatic:false,
+    density: 0.1
     }
     this.x=x;
     this.y=y;

@@ -81,9 +81,9 @@ box14.display();
 box15.display();
 box16.display();
 ground.display();
-polygon.display();
-drawSprites();
 
+drawSprites();
+polygon.display();
 sShot.display();
 }
 function mouseDragged(){
@@ -92,6 +92,6 @@ function mouseDragged(){
 
 function mouseReleased(){
     sShot.fly();
-    distance=int(dist(polygon.x,polygon.y,box1.x,box1.y));
+   
 
 }
